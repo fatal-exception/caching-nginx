@@ -1,3 +1,4 @@
 FROM nginx
-COPY ./service.conf /etc/nginx/conf.d/
+COPY nginx.conf /etc/nginx/nginx.conf
+COPY services.conf /etc/nginx/conf.d/services.conf
 
